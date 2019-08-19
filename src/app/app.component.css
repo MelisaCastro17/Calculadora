@@ -1,0 +1,28 @@
+button
+{
+    margin: 5px;
+    size: 500%;
+    font-family: Georgia;
+    font-style: italic;
+    font-weight: 100;
+    border-width: thick;
+    border-block-color: unset;
+}
+input
+{
+    border-color: cornflowerblue;
+    margin: 3px;
+    text-align: center;
+    color: purple;
+    background-color: powderblue;
+}
+p
+{
+    font-family: cursive;
+}
+h1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 300%;
+    color: maroon;
+}
