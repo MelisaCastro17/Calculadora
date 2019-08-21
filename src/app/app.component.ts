@@ -31,8 +31,19 @@ export class AppComponent
         return this.rta = this.num1 / this.num2;
         }
       case "modulo":
+        if(this.num2 == 0)
+        return null;
+        else
         return this.rta = this.num1 % this.num2;
+      case "limpiar":
+        return null;
     }
+  }
+  reset()
+  {
+    this.num1 = null;
+    this.num2 = null;
+    this.rta = null;
   }
 }
 
